@@ -1,17 +1,23 @@
 <template>
   <q-page class="flex flex-center">
-    <!-- <img alt="Quasar logo" src="~assets/quasar-logo-full.svg"> -->
-    <tello-tilt></tello-tilt>
+    <div>
+      Video Feed
+    </div>
   </q-page>
 </template>
 
 <script>
-import TelloTilt from '../components/TelloTilt'
 
 export default {
   name: 'PageIndex',
-  components: {
-    TelloTilt
+  data () {
+    return {
+
+    }
   }
 }
 </script>
+
+<style scoped>
+
+</style>
